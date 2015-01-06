@@ -1,7 +1,7 @@
 {
-  "name": "CIRC",
+  "name": "CIRC Manfios",
   "description": "An IRC client for Chrome",
-  "version": "0.6.6",
+  "version": "0.6.1",
   "minimum_chrome_version": "33.0.1715.0",
   "manifest_version": 2,
   "icons": {
@@ -19,6 +19,8 @@
     "152": "static/icon/icon152.png"
   },
 
+//  "content_security_policy": "img-src '*'",
+
   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDwi17PnlCWAHUvLhT+eMKZ4kJExfxtiRgWTBamyFdR0pMRO2sPmMD2lJSe1n6zZ4f52kuGzLPVLfexG1Exlgyfl6C+OGfHAhvBc6cUDmWSzCwjKAf1jFBQmDI5En1Oo+2eE3CcOefxIRTLl5Ug6QnbUQcAZQx3ChiFi05DL9ldBwIDAQAB",
 
   "permissions": [
@@ -26,7 +28,8 @@
     "storage",
     "fileSystem",
     "system.network",
-    "unlimitedStorage"
+    "unlimitedStorage",
+    "<all_urls>"
   ],
 
   "sockets": {
