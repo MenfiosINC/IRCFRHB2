@@ -819,12 +819,9 @@
           return getEmbedableUrl(this.src, function(url) {
             var img;
             img = $('<img>');
-            img.on('load', function() {
-              img.css('max-width', "" + img[0].width + "px");
-              img.css('width', '100%');
-              return win.rawMessage('', img[0].outerHTML);
-            });
-            return img.attr('src', url);
+            img.css('max-width', '80%');
+            img.attr('src', url)
+            win.rawMessage('', img[0].outerHTML);
           });
         }
       });
