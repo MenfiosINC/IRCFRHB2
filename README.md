@@ -1,10 +1,5 @@
-# [CIRC](http://flackr.github.com/circ)
-**An IRC client in the shape of a packaged Chrome app**
+# [IRCFRHB2](https://github.com/MenfiosINC/IRCFRHB2)
 
-CIRC uses the chrome.sockets APIs to connect directly to IRC servers without needing a proxy. It has a ton of other killer features as well such as syncing your IRC state accross all your devices and allowing you to use a single IRC connection on multiple devices simultaneously.
+**An better IRC client in the shape of a packaged Chrome app**
 
-[Get it on the Chrome Web Store](https://chrome.google.com/webstore/detail/circ/bebigdkelppomhhjaaianniiifjbgocn) 
-
-Check out the documentation: https://github.com/flackr/circ/wiki
-
-Join the official channel at #CIRC on irc.freenode.net.
+IRCFRHB2 is a fork from  [CIRC](http://flackr.github.com/circ).
