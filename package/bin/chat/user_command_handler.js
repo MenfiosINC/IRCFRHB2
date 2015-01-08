@@ -639,9 +639,9 @@
           var willAutostart;
           willAutostart = this.chat.storage.setAutostart(this.enabled);
           if (willAutostart) {
-            return this.displayMessage('notice', "CIRC will now automatically " + "run on startup");
+            return this.displayMessage('notice', "IRCFRHB2 will now automatically " + "run on startup");
           } else {
-            return this.displayMessage('notice', "CIRC will no longer " + "automatically run on startup");
+            return this.displayMessage('notice', "IRCFRHB2 will no longer " + "automatically run on startup");
           }
         }
       });

@@ -57,7 +57,7 @@
       height: 400,
       minWidth: 320,
       minHeight: 160,
-      id: 'circ'
+      id: 'IRCFRHB2'
     }, onCreated);
   };
 

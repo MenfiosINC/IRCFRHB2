@@ -32,7 +32,7 @@
     };
 
     MessageRenderer.prototype.displayWelcome = function() {
-      this.systemMessage("Welcome to CIRC!");
+      this.systemMessage("Welcome to IRCFRHB2!");
       return this.systemMessage(this._getWebsiteBlurb());
     };
 
@@ -50,7 +50,7 @@
 
     MessageRenderer.prototype.displayAbout = function() {
       this._addWhitespace();
-      this.systemMessage("CIRC is a packaged Chrome app developed by Google Inc. " + this._getWebsiteBlurb(), 'notice about');
+      this.systemMessage("IRCFRHB2 is a packaged Chrome app developed by a random dude, based on the awesome work from Google with CIRC. " + this._getWebsiteBlurb(), 'notice about');
       this.systemMessage("Version: " + globals.VERSION, 'notice about');
       this.systemMessage("Contributors:", 'notice about group');
       this.systemMessage("    * Icon by Michael Cook (themichaelcook@gmail.com)", 'notice about group');

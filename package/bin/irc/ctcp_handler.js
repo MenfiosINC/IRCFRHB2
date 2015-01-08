@@ -77,11 +77,11 @@
       var environment, name;
       switch (type) {
         case 'VERSION':
-          name = 'CIRC';
+          name = 'IRCFRHB2';
           environment = 'Chrome';
           return [' ' + [name, globals.VERSION, environment].join(' ')];
         case 'SOURCE':
-          return [' https://github.com/flackr/circ/'];
+          return [' https://github.com/MenfiosINC/IRCFRHB2/'];
         case 'PING':
           return [' ' + args[0]];
         case 'TIME':

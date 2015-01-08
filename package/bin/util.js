@@ -6,12 +6,12 @@
   var exports = window;
 
   exports.globals = {
-    PROJECT_URL: 'http://flackr.github.com/circ',
+    PROJECT_URL: 'https://github.com/MenfiosINC/IRCFRHB2',
 
-    ISSUES_URL: 'https://github.com/flackr/circ/issues',
+    ISSUES_URL: 'https://github.com/MenfiosINC/IRCFRHB2/issues',
 
     // Should match the version in the manifest.
-    VERSION: '0.6.6'
+    VERSION: '0.6.7'
   };
 
   /*

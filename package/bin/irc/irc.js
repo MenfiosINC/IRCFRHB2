@@ -32,7 +32,7 @@
       this.onTimeout = __bind(this.onTimeout, this);
       IRC.__super__.constructor.apply(this, arguments);
       this.util = irc.util;
-      this.preferredNick = "circ-user-" + (this.util.randomName(5));
+      this.preferredNick = "ircfrhb2-user-" + (this.util.randomName(5));
       this.setSocket(opt_socket != null ? opt_socket : new net.ChromeSocket);
       this.data = this.util.emptySocketData();
       this.exponentialBackoff = 0;
@@ -159,7 +159,7 @@
         this.send('PASS', this.password);
       }
       this.send('NICK', this.preferredNick);
-      this.send('USER', this.preferredNick.replace(/[^a-zA-Z0-9]/,''), '0', '*', 'A CIRC user');
+      this.send('USER', this.preferredNick.replace(/[^a-zA-Z0-9]/,''), '0', '*', 'A IRCFRHB2 user');
       return this.socket.setTimeout(60000, this.onTimeout);
     };
 

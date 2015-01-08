@@ -56,7 +56,7 @@
 
     Chat.prototype._displaySocketSupportError = function() {
       var message;
-      message = "CIRC cannot run on this device. Support for " + "chrome.sockets is required to connect to the IRC server. " + "Please update your version of Chrome and try again.";
+      message = "IRCFRHB2 cannot run on this device. Support for " + "chrome.sockets is required to connect to the IRC server. " + "Please update your version of Chrome and try again.";
       return this.displayMessage('error', this.getCurrentContext(), message);
     };
 
@@ -623,7 +623,7 @@
     Chat.prototype._updateDocumentTitle = function() {
       var connectedDevices, titleList, _ref1, _ref2;
       titleList = [];
-      titleList.push("CIRC " + irc.VERSION);
+      titleList.push("IRCFRHB2 " + irc.VERSION);
       if ((_ref1 = this.remoteConnection) != null ? _ref1.isClient() : void 0) {
         titleList.push('- Connected through ' + this.remoteConnection.serverDevice.addr);
       } else if ((_ref2 = this.remoteConnection) != null ? _ref2.isServer() : void 0) {
