@@ -821,7 +821,9 @@
             img = $('<img>');
             img.css('max-width', '80%');
             img.attr('src', url)
-            win.rawMessage('', img[0].outerHTML, 'image-message');
+            img.on('load', function(){
+              win.rawMessage('', img[0].outerHTML, 'image-message');
+            });
           });
         }
       });
