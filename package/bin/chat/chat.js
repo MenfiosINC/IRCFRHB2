@@ -78,7 +78,7 @@
         var next_state = stylesheet.rules[90].style.display=="none"?"display : table-row":"display: none";
         stylesheet.removeRule(90);
         stylesheet.addRule('.image-message', next_state, 90);
-        jQuery("#messages-container")[0].scrollTop= jQuery("#messages-container")[0].scrollHeight
+        jQuery("#messages-container")[0].scrollTop= jQuery("#messages-container")[0].scrollHeight;
       });
       this.channelDisplay = new chat.ChannelList();
       this.channelDisplay.on('clicked', function(server, chan) {
